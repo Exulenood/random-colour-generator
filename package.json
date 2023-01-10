@@ -53,6 +53,7 @@
     "@typescript-eslint/utils": "5.47.1"
   },
   "dependencies": {
+    "chalk": "^5.2.0",
     "rcolor": "^2.0.2"
   }
 }
