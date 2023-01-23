@@ -35,7 +35,7 @@ if (chosenLuminosity === 'light') {
   setLuminosity = 0.8;
 } else {
   console.log(
-    'please define a luminosity-range with the tags "light", "dark" or "blue',
+    'please define a luminosity-range with the tags "light" or "dark",',
   );
 }
 
@@ -45,12 +45,24 @@ const hexColor = rcolor({
   value: setLuminosity,
 });
 
-console.log(chalk.hex(hexColor)('#################################'));
-console.log(chalk.hex(hexColor)('#################################'));
-console.log(chalk.hex(hexColor)('#################################'));
-console.log(chalk.hex(hexColor)('########                  #######'));
-console.log(chalk.hex(hexColor)(`########    ${hexColor}       #######`));
-console.log(chalk.hex(hexColor)('########                  #######'));
-console.log(chalk.hex(hexColor)('#################################'));
-console.log(chalk.hex(hexColor)('#################################'));
-console.log(chalk.hex(hexColor)('#################################'));
+// console.log(chalk.hex(hexColor)('#################################'));
+// console.log(chalk.hex(hexColor)('#################################'));
+// console.log(chalk.hex(hexColor)('#################################'));
+// console.log(chalk.hex(hexColor)('########                  #######'));
+// console.log(chalk.hex(hexColor)(`########    ${hexColor}       #######`));
+// console.log(chalk.hex(hexColor)('########                  #######'));
+// console.log(chalk.hex(hexColor)('#################################'));
+// console.log(chalk.hex(hexColor)('#################################'));
+// console.log(chalk.hex(hexColor)('#################################'));
+
+console.log(
+  chalk.hex(hexColor)(`${'#'.repeat(34)}
+${'#'.repeat(34)}
+${'#'.repeat(34)}
+${'#'.repeat(8)}${' '.repeat(18)}${'#'.repeat(8)}
+${'#'.repeat(8)}     ${hexColor}      ${'#'.repeat(8)}
+${'#'.repeat(8)}${' '.repeat(18)}${'#'.repeat(8)}
+${'#'.repeat(34)}
+${'#'.repeat(34)}
+${'#'.repeat(34)}`),
+);
