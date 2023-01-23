@@ -35,7 +35,7 @@ if (chosenLuminosity === 'light') {
   setLuminosity = 0.8;
 } else {
   console.log(
-    'please define a luminosity-range with the tags "light" or "dark",',
+    'please define a luminosity-range with the tags "light" or "dark"',
   );
 }
 
