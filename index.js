@@ -45,16 +45,6 @@ const hexColor = rcolor({
   value: setLuminosity,
 });
 
-// console.log(chalk.hex(hexColor)('#################################'));
-// console.log(chalk.hex(hexColor)('#################################'));
-// console.log(chalk.hex(hexColor)('#################################'));
-// console.log(chalk.hex(hexColor)('########                  #######'));
-// console.log(chalk.hex(hexColor)(`########    ${hexColor}       #######`));
-// console.log(chalk.hex(hexColor)('########                  #######'));
-// console.log(chalk.hex(hexColor)('#################################'));
-// console.log(chalk.hex(hexColor)('#################################'));
-// console.log(chalk.hex(hexColor)('#################################'));
-
 console.log(
   chalk.hex(hexColor)(`${'#'.repeat(34)}
 ${'#'.repeat(34)}
